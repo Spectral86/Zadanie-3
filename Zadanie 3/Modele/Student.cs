@@ -10,8 +10,10 @@ namespace Zadanie_3.Modele
     public class Student
     {
 
-        [Required(ErrorMessage = "Imie jest wymagane.")]
+          [Required(ErrorMessage = "Imie jest wymagane.")]
         public string Imie { get; set; }
+
+        [Required(ErrorMessage = "Nazwisko jest wymagane.")]
         public string Nazwisko { get; set; }
 
         public string IndexNumber { get; set; }
